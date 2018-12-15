@@ -163,14 +163,11 @@
     <link type="text/css" rel="stylesheet" href="CSS/estilos_mapa.css" />
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126833193-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
 	
-	gtag('config', 'UA-126833193-1');
-	</script>
+	
+	
+	
+	
     <style>
         :root {
     --bg: #1a1e24;
