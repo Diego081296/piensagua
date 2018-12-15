@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="author" content="Equipo 11 - Agua">
+  <meta name="description" content="Concientizar acerca de la falta de cultura en el cuidado del agua, conoce tu huella hídrica y el impacto que se genera a tu alrededor">
+  <meta name="keywords" content="Agua, Cultura del agua, Huella hídrica, Concientización del agua, Piensa agua">
+
+	<title>Piensagua</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  
+  <link rel="stylesheet" type="text/css" href="CSS/Normalize.css">
+  <link rel="stylesheet" type="text/css" href="CSS/Estilo.css">
+  <link rel="stylesheet" type="text/css" href="CSS/fonts.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+  <link rel="icon" type="image/jpeg" href="/src/logoPuro.png" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126833193-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126833193-1');
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('a[href^="#"]').click(function() {
+            var destino = $(this.hash);
+            if (destino.length == 0) {
+            destino = $('a[name="' + this.hash.substr(1) + '"]');
+            }
+            if (destino.length == 0) {
+            destino = $('html');
+            }
+            $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+            return false;
+        });
+    });
+</script>
+</head>
+<body>
+
+<!-- 
+1 - Navbar with brand left, centered links and right aligned links.
+    The center links collapse into the mobile menu and rightside links
+    show underneath
+-->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="d-flex w-50 order-0">
+        <a class="navbar-brand mr-1" href="index.html"><img class="logoBarra" src="src/logoPuro.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
+    <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="acerca.html">Acerca de PIENSAGUA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="informacion.html">Informacion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="miEstado.php">Mi Estado</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="directorio.php">Directorio estatal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="huellaHidrica.html">Huella Hídrica</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </div>
+    <span class="navbar-text small text-truncate mt-1 w-100 text-right order-1 order-md-last"></span>
+</nav>
+
+<header id="header">
+    <div class="intro">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-lg-12">   
+                    <h1>PIENSAGUA</h1>
+                </div>
+                <div class="col-lg-12">
+                    <a href="index.html"><img src="src/logoPuro.png" class = "logoIndex"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="about-white">
+    <div class="container">
+        <div class = "row">       
+            <div class="col-lg-12">
+                <div class="container optIntro">
+                    <h1 class="titulosSecciones">Nuestro Propósito</h1>
+                    <p><b>México es uno de los países que se estima que enfrentará 
+                        una severa <a href="informacion.html #crisis">crisis de agua</a>
+                        para el 2030. Por esta razón, es 
+                        necesario reducir nuestro consumo y aquí en PIENSAGUA queremos
+                            brindarte algunas herramientas para hacerlo.
+                    </b></p>
+                    <div class="row">
+                            <div class="col-lg-12">
+                                    <a href="acerca.html"><button class="btn btn-mas">Ver más</button></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about-alarmantes">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="about-text">
+                <h1><i class="fas fa-tint"></i>Algunos datos alarmantes sobre México</h1>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="about-desc">
+                <blockquote>Según estimaciones del World Resources Institute ([WRI] cit. En Maddocks, Young y Reig, 2015), para el 2040 México podría sufrir una severa crisis de estrés hídrico. En general, la sociedad mexicana se volvería más vulnerable de lo que hoy es por la falta de agua. 
+                  <footer>
+                    <cite><a href="https://www.wri.org/blog/2015/08/ranking-world-s-most-water-stressed-countries-2040" target="_blank">World Resources Institute</a></cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="about-desc">
+                    <blockquote>Actualmente, México está en el lugar número 34 de los 160 países con mayores niveles de estrés hídrico 
+                       <footer>
+                         <cite><a href="#" target="_blank"></a></cite>
+                       </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="about-desc">
+                    <blockquote>La Comisión Nacional del Agua (CONAGUA, 2016) estimó en el 2015 que el agua renovable per cápita era de aproximadamente 3692 metros cúbicos al año, y calcula que para el 2030 esta cantidad se reduzca un 12%.
+                    <footer>
+                        <cite><a href="#" target="_blank">CONAGUA</a></cite>
+                    </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="about-desc">
+                    <blockquote>Según el Instituto Nacional de Estadística y Geografía ([INEGI], 2018), en 2016 sólo 68% de los mexicanos encuestados contaba con dotación de agua diaria.
+                    <footer>
+                        <cite><a href="#" target="_blank">INEGI</a></cite>
+                    </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <a href="informacion.html"><button class="btn btn-mas">Ver más</button></a>
+            </div>
+           
+          </div>
+        </div>
+</div>
+
+
+
+<div class = "nosotros">
+  <h1>Nosotros</h1>
+  <div class="containerN">
+      <div class="row">
+            <div class="col-lg-2 blockC">                        
+                <b>Diego Villatoro Gerónimo</b>
+                <i><br>Ingeniero en Robótica</i>
+                <i><br>Tecnológico de Monterrey</i> <br><br>
+                <div class="col-lg-12">
+                  <img class="students" src="src/Diego.jpg"></label>
+                </div>
+                <div class="col-lg-12">
+                  <div class="content-inner">
+                      <p>
+                        Distinción Líderes del mañana con la pasión de desarrollar tecnología para la agricultura. Además preocupado por la situación de México se encuentra desarrollando proyectos para optimizar el uso del agua.
+                      </p>
+                      <a href="https://www.facebook.com/diego081296/" target="_blank" class="icon-facebook"></a>
+                      <a href="https://www.instagram.com/diego081296/" target="_blank" class="icon-instagram"></a>
+                      <a href="mailto:dvillatorog@hotmail.es" class="icon-mail"></a>
+                      <a href="https://www.linkedin.com/in/diego081296/" target="_blank" class="fab fa-linkedin-in"></a>
+                   </div>
+                </div>        
+            </div>
+            <div class="col-lg-3 blockC">
+                <b>Dulce Barros Córdoba</b>
+                <i><br>Licenciada en Políticas Públicas</i>
+                <i><br>Centro de Investigación en Docencias Económicas</i>
+                <div class="col-lg-12">
+                  <img class="students" src="src/Dulce.jpg"></label>
+                </div>
+                <div class="col-lg-12">
+                  <div class="content-inner">
+                      <p>           
+                        Como estudiante de políticas públicas he desarrollado una gran curiosidad por los problemas sociales que aquejan a México. Aunque nunca me habían llamado la atención los temas ambientales, debo de reconocer que estudiar “La escasez de agua en México” ha sido sumamente interesante y preocupante. Espero formar parte de este proyecto te sea tan útil como a mí. Estoy a tus órdenes.
+                      </p>
+                      <a href="https://www.facebook.com/dulce.barros.370" target="_blank" class="icon-facebook"></a>
+                      <a href="mailto:dulce.barros@alumnos.cide.edu" class="icon-mail"></a>
+                  </div>
+                </div>        
+            </div>
+            <div class="col-lg-2 blockC">
+                <b>Jair Salcedo Sánchez</b>
+                <i><br>Ingeniero Petrolero</i>
+                <i><br>Universidad Veracruzana</i><br><br>
+                <div class="col-lg-12">
+                  <img class="students" src="src/Jair.jpeg"></label>
+                </div>
+                <div class="col-lg-12">
+                    <div class="content-inner">
+                        <p>              
+                            El agua es uno de los recursos más invaluables con 
+                            los que contamos, como ingeniero petrolero comprendo 
+                            que contamos con recursos limitados cuya explotación 
+                            debe de ser responsable y con un consumo sustentable. 
+                            Es crucial optimizar el consumo de agua de la población 
+                            ya que cada vez tenemos menos para cada habitante, 
+                            ahí radica la importancia de nuestro proyecto.        
+                        </p>
+                        <a href="https://www.facebook.com/harilsonjair.salcedosanchez" target="_blank" class="icon-facebook"></a>
+                        <a href="mailto:sasorigamer95@gmail.com" class="icon-mail"></a>
+                    </div>
+                </div>        
+            </div>
+            <div class="col-lg-2 blockC">
+                <b>Eli Garrido Galam</b>
+                <i><br>Ingeniero en Irrigación</i>
+                <i><br>Universidad Autónoma de Chapingo</i>
+                <div class="col-lg-12">
+                  <img class="students" src="src/Eli.jpeg"></label>
+                </div>
+                <div class="col-lg-12">
+                    <div class="content-inner">
+                        <p>              
+                                El agua es un aspecto muy importante en nuestras vidas, desde la que tomamos hasta la que consumimos de manera virtual en los alimentos. Como estudiante de irrigación, en este proyecto tuve la oportunidad de trabajar un tema distinto sobre lo que conocía, que es el “acceso al agua”.
+                                Estoy muy emocionado por los resultados que podemos obtener.           
+                        </p>
+                        <a href="https://www.facebook.com/GarridoEli" target="_blank" class="icon-facebook"></a>                  
+                        <a href="#" class="icon-mail"></a>
+                    </div>
+                </div>        
+            </div>
+            <div class="col-lg-3 blockC">
+                <b>Patricia Arellanos Acosta</b>
+                <i><br>Licenciada en Arquitectura</i>
+                <i><br>Universidad de Monterrey</i><br><br>
+                <div class="col-lg-12">
+                  <img class="students" src="src/Patricia.jpg"></label>
+                </div>
+                <div class="col-lg-12">
+                  <div class="content-inner">              
+                    <div class="content-inner">
+                        <p>              
+                            Al ser estudiante de arquitectura, he de reconocer que el agua juega un rol muy importante en la escala de la ciudad, donde para abastecer a los ciudadanos es de suma importancia contar con buena infraestrucutra que pueda suministrar a toda la población. En piensagua puedes comparar tu consumo de agua con otras entidades de la federación mexicana con el fin de disminuir su uso si se encuentra por encima de la media, o bien, intervenir públicamente en las entidades que presenten mayor problema con este recurso.           
+                        </p>
+                        <a href="https://www.facebook.com/arellacos" target="_blank" class="icon-facebook"></a>
+                        <a href="https://twitter.com/arellacos" target="_blank" class="icon-twitter"></a>
+                        <a href="mailto:arellacos@gmail.com" class="icon-mail"></a>
+                        <a href="https://www.linkedin.com/in/patricia-arellanos-14016687/" target="_blank" class="fab fa-linkedin-in"></a>
+                    </div>
+                </div>        
+            </div>
+      </div>   
+  </div>  
+</div>
+
+<div class="social">
+    <ul>
+      <li><a href="https://www.facebook.com/Piensagua-235896400416662/" target="_blank" class="icon-facebook"></a></li>
+      <li><a href="https://www.instagram.com/piensagua_/" target="_blank" class="icon-instagram"></a></li>
+      <li><a href="mailto:piensagua@gmail.com" class="icon-mail"></a></li>
+    </ul>
+</div>
+
+</body>
+</html>

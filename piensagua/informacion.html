@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="author" content="Equipo 11 - Agua">
+  <meta name="description" content="Concientizar acerca de la falta de cultura en el cuidado del agua, conoce tu huella hídrica y el impacto que se genera a tu alrededor">
+  <meta name="keywords" content="Agua, Cultura del agua, Huella hídrica, Concientización del agua, Piensa agua">
+
+	<title>Piensagua - Información</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  
+  <link rel="stylesheet" type="text/css" href="CSS/Normalize.css">
+  <link rel="stylesheet" type="text/css" href="CSS/Estilo.css">
+  <link rel="stylesheet" type="text/css" href="CSS/fonts.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+  <link rel="icon" type="image/jpeg" href="/src/logoPuro.png" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126833193-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126833193-1');
+</script>
+
+
+<script>
+    $(document).ready(function() {
+        $('a[href^="#"]').click(function() {
+            var destino = $(this.hash);
+            if (destino.length == 0) {
+            destino = $('a[name="' + this.hash.substr(1) + '"]');
+            }
+            if (destino.length == 0) {
+            destino = $('html');
+            }
+            $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+            return false;
+        });
+    });
+</script>
+</head>
+<body>
+
+<!-- 
+1 - Navbar with brand left, centered links and right aligned links.
+    The center links collapse into the mobile menu and rightside links
+    show underneath
+-->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="d-flex w-50 order-0">
+        <a class="navbar-brand mr-1" href="index.html"><img class="logoBarra" src="src/logoPuro.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
+    <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="acerca.html">Acerca de PIENSAGUA</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Informacion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="miEstado.php">Mi Estado</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="directorio.php">Directorio estatal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="huellaHidrica.html">Huella Hídrica</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </div>
+    <span class="navbar-text small text-truncate mt-1 w-100 text-right order-1 order-md-last"></span>
+</nav>
+
+<header id="header">
+    <div class="intro2">
+            <div class="wrapper">
+                <div class="row">
+                    
+                    <div class="col-lg-12">
+                        <a href="index.html"><img src="src/logoPuro.png" class = "logoIndex"></a>
+                    </div>
+                </div>
+            </div>
+    </div> 
+</header>
+
+<div id="about-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="about-text">
+            <h1><i class="fas fa-tint"></i>Información General: Escasez de Agua en México</h1>
+          </div>
+        </div>
+        
+        <div class="col-lg-12">
+          <div class="about-desc">
+            <blockquote>Según estimaciones del World Resources Institute ([WRI] cit. En Maddocks, Young y Reig, 2015), para el 2040 México podría sufrir una severa crisis de estrés hídrico. En general, la sociedad mexicana se volvería más vulnerable de lo que hoy es por la falta de agua. 
+              <footer>
+                <cite><a href="https://www.wri.org/blog/2015/08/ranking-world-s-most-water-stressed-countries-2040" target="_blank">World Resources Institute</a></cite>
+              </footer>
+            </blockquote>
+          </div>  
+        </div>
+        <h2>Pero ¿Qué es la escasez de agua?</h2>
+        <div class="col-lg-12">
+          <div class="about-desc">
+            <blockquote>La Organización de las Naciones Unidas (ONU, 2014) considera que la escasez de agua es la situación en la que la demanda de agua no puede ser satisfecha por todos los sectores de una comunidad. Si en determinada zona el suministro anual de agua es menor a los 17000m3, entonces dicha unidad geográfica presenta escasez de agua. Este monto fue determinado por la ONU como un mínimo de calidad de vida y desarrollo adecuado del entorno. 
+              <footer>
+                <cite><a href="http://www.un.org/es/sections/issues-depth/water/index.html" target="_blank">ONU agua,</a></cite>
+                <cite><a href = "http://www.un.org/spanish/waterforlifedecade/scarcity.shtml" target="_blank">ONU escasez</a></cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+
+        <h2>Y ¿Cómo está México en términos de escasez? </h2>
+        <div class="col-lg-12">
+          <div class="about-desc">
+              La disponibilidad de agua per cápita por regiones para el 2015 fue la siguiente: 
+              <div class="row">
+                  <div class="col-lg-6">
+                      <img src="src/mapaEscasez1.jpg" class = "mapsInfo">
+                      <footer>
+                            <cite><a href="http://files.conagua.gob.mx/conagua/publicaciones/Publicaciones/EAM2016.pdf" target="_blank">CONAGUA, 2016, p. 185</a></cite>
+                      </footer>
+                  </div>
+                  <div class="col-lg-6">
+                      <img src="src/mapaEscasez2.jpg" class = "mapsInfo">
+                      <footer>
+                            <cite><a href="http://files.conagua.gob.mx/conagua/publicaciones/Publicaciones/EAM2016.pdf" target="_blank">CONAGUA, 2016, p. 185</a></cite>
+                      </footer>
+                  </div>
+              </div>
+              <br>Como es posible ver, para 2015, 4 de las 13 regiones hídricas del país se encontraban en situación de estrés hídrico. Y, si los patrones de consumo actuales se mantienen, la tendencia irá en aumento, pues es posible observar en el Anexo 2, para el 2030 serán 6 de 13 las regiones que experimenten escasez de agua. Preocupante, ¿no? 
+              <br><br><a href="#tips">¡Ponte a ahorrar!</a><br><br>
+              Como en PIENSAGUA queremos revertir esta situación, te invitamos a que te informes más y estés atento a la información que publicamos en nuestras redes, También, queremos invitarte a conozcas tu consumo de agua y lo reduzcas. Y, ¿por qué no? Queremos invitarte a que denuncies los problemas o iniciativas que tengas para cuidar de este vital recurso               
+          </div>
+        </div>
+       
+      </div>
+    </div>
+</div>
+
+<a name="tips"></a>
+<div id="tips">
+        <h1 class="titulosSecciones">TIPS</h1>
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-4">
+                <a href="http://waterfootprint.org/media/downloads/Water_Footprint_of_Mexico.pdf" target="_blank"><img src="src/Tip1.jpeg" class="imgtips"></a>
+              </div>
+      
+              <div class="col-lg-4">
+                <a href="http://waterfootprint.org/media/downloads/Water_Footprint_of_Mexico.pdf" target="_blank"><img src="src/Tip2.jpeg" class="imgtips"></a>
+              </div>
+      
+              <div class="col-lg-4">
+                <a href="https://es.slideshare.net/mobile/aguaorgmx/cunta-agua-se-desperdicia-en-un-da" target="_blank"><img src="src/Tip3.jpeg" class="imgtips"></a>
+              </div>
+      
+              <div class="col-lg-4">
+                <a href="http://www.acualogica.com/inodoro" target="_blank"><img src="src/Tip4.jpeg" class="imgtips"></a>
+              </div>
+      
+              <div class="col-lg-4">
+                <a href="https://es.slideshare.net/mobile/aguaorgmx/cunta-agua-se-desperdicia-en-un-da" target="_blank"><img src="src/Tip5.jpeg" class="imgtips"></a>
+              </div>
+      
+              <div class="col-lg-4">
+                <a href="https://es.slideshare.net/mobile/aguaorgmx/cunta-agua-se-desperdicia-en-un-da" target="_blank"><img src="src/Tip6.jpeg" class="imgtips"></a>
+              </div>
+      
+              <div class="col-lg-4">
+                <a href="https://es.slideshare.net/mobile/aguaorgmx/cunta-agua-se-desperdicia-en-un-da" target="_blank"><img src="src/Tip7.jpeg" class="imgtips"></a>
+              </div>
+      
+              <div class="col-lg-4">
+                <a href="https://es.slideshare.net/mobile/aguaorgmx/cunta-agua-se-desperdicia-en-un-da" target="_blank"><img src="src/Tip8.jpeg" class="imgtips"></a>
+              </div>
+      
+          </div>
+          
+        </div>
+</div>
+
+<div class="about-preguntas">
+  <div class="container">
+            <h1 class="titulosSecciones">Preguntas frecuentes</h1>
+            <div class="wrap-collabsible">
+                <input id="collapsible" class="toggle" type="checkbox">
+                <label for="collapsible" class="lbl-toggle">¿De dónde sacamos el agua que usamos?</label>
+                <div class="collapsible-content2">
+                  <div class="content-inner">
+                    <p>
+                      Del agua en México 75% del país se abastece de aguas subterráneas, el 25% restante se toma del agua superficial de ríos y arroyos, de los cuales más de 75%, según la página de Conagua, están contaminados en algún grado. <cite><a href="https://www.nexos.com.mx/?p=32789" target="_blank">(Mastreta, 2017)</a></cite>
+                    </p>
+                  </div>
+                </div>
+            
+                <input id="collapsible1" class="toggle" type="checkbox">
+                <label for="collapsible1" class="lbl-toggle">¿Es nuestro derecho el acceso al agua?</label>
+                <div class="collapsible-content2">
+                  <div class="content-inner">
+                    <p>
+                      Sí. El articulo 4° indica que toda persona tiene derecho al acceso, disposición y saneamiento de agua para consumo personal y doméstico en forma suficiente, salubre, aceptable y asequible. El Estado garantizará este derecho y la ley definirá las bases, apoyos y modalidades para el acceso y uso equitativo y sustentable de los recursos hídricos, estableciendo la participación de la Federación, las entidades federativas y los municipios, así como la participación de la ciudadanía para la consecución de dichos fines. <cite><a href="https://www.juridicas.unam.mx/legislacion/ordenamiento/constitucion-politica-de-los-estados-unidos-mexicanos" target="_blank">(Constitución política de los estados unidos mexicanos, 1917)</a></cite>
+                    </p>
+                  </div>
+                </div>
+            
+                <input id="collapsible2" class="toggle" type="checkbox">
+                <label for="collapsible2" class="lbl-toggle">¿Cuánta agua consume una persona en promedio al día?</label>
+                <div class="collapsible-content2">
+                  <div class="content-inner">
+                    <p>
+                      En México, el consumo promedio de agua por persona es de 380 litros de agua al día <cite><a href="http://www.conagua.gob.mx/CONAGUA07/Contenido/Documentos/carrera_agua_2015.pdf" target = "_blank">(Conagua, 2015)</a></cite>. Sin embargo esta cantidad no representa ni el 10% del agua total usada por todas las actividades y/o productos que consumimos. La huella hídrica per capita en México es de 1,978m<sup>3</sup> anuales. <cite><a href = "http://waterfootprint.org/media/downloads/Water_Footprint_of_Mexico.pdf" target = "_blank">(Water Footprint, 2012)</a></cite>
+                    </p>
+                  </div>
+                </div>
+            
+                <input id="collapsible3" class="toggle" type="checkbox">
+                <label for="collapsible3" class="lbl-toggle">¿Qué es un consumo sustentable?</label>
+                <div class="collapsible-content2">
+                  <div class="content-inner">
+                    <p>
+                      El uso sustentable del agua se logra cuando: el agua genera bienestar social, propicia el desarrollo económico y se preserva. <cite><a href="https://www.gob.mx/presidencia/articulos/uso-sustentable-del-agua" target = "_blank">(CONAGUA)</a></cite>
+                    </p>
+                  </div>
+                </div>
+            
+                <input id="collapsible4" class="toggle" type="checkbox">
+                <label for="collapsible4" class="lbl-toggle">¿Qué es la huella hídrica?</label>
+                <div class="collapsible-content2">
+                  <div class="content-inner">
+                    <p>
+                      El concepto de Huella Hídrica (en inglés Water Footprint) se dio a conocer en 2002 por Arjen Hoekstra del Instituto de Educación del Agua de la UNESCO. A día de hoy se define como: “el volumen total de agua dulce que se utiliza para producir bienes y servicios de un individuo, de una comunidad o de una empresa". La Huella Hídrica se mide en el volumen de agua consumida, evaporada o contaminada, ya sea en unidad de tiempo o en unidad de masa. Además, es un indicador del uso de agua, uso tanto directo como indirecto. <cite><a href="https://www.aec.es/web/guest/centro-conocimiento/huella-hidrica" target = "_blank">(Asociación Española para la Calidad, 2012)</a></cite>
+                    </p>
+                  </div>
+                </div>
+
+                <input id="collapsible5" class="toggle" type="checkbox">
+                <label for="collapsible5" class="lbl-toggle">Referencias</label>
+                <div class="collapsible-content">
+                  <div class="content-inner">
+                    <p>
+                        <cite><a href="http://files.conagua.gob.mx/conagua/publicaciones/Publicaciones/EAM2016.pdf" target = "_blank">Comisión Nacional del Agua [CONAGUA]. (2016). Estadísticas del Agua en México. Edición 2016</a></cite>
+                        <br><cite><a href="">Concha Malo, Miguel. (2003). El compromiso por la justicia social, una exigencia de la ética cívica y política. Contaduría y Administración.</a></cite>
+                        <br><cite><a href="http://www.diputados.gob.mx/LeyesBiblio/pdf/1_150917.pdf" target = "_blank">Constitución Política de los Estados Unidos Mexicanos [CPEUM]. (2017). Cámara de Diputados del Honorable Congreso de la Unión, México, última reforma Última Reforma 15-09-2017.</a></cite>
+                        <br><cite><a href="https://www.researchgate.net/publication/323767962_Water_scarcity_management_part_1_methodological_framework?enrichId=rgreq-15fe4d6cce0b32841df8d21f069ca9ba-XXX&enrichSource=Y292ZXJQYWdlOzMyMzc2Nzk2MjtBUzo2MzQ3OTQwOTAxNzY1MTVAMTUyODM1ODExMzUyNg%3D%3D&el=1_x_2&_esc=publicationCoverPdf" target = "_blank">Eslaiman, S. y Dalezios, N. (2018). Water scarcity management: methodological framework. International Journal of Global Enviromenta Issues.</a></cite>
+                        <br><cite><a href="">García, D. (2010). Ética, Profesión y Ciudadanía. Una ética cívica para la vida en común. México: Porrúa.</a></cite>
+                        <br><cite><a href="https://www.vanderbilt.edu/lapop-espanol/acceso-gratuito.php" target = "_blank">Informe Belmont (1990) de la Comisión Nacional (de los EE.UU.) para la protección de los sujetos humanos de investigación biomédica y conductual. Latin American Public Opinion Project [LAPOP]. (2010). </a></cite>
+                        <br><cite><a href="http://www5.diputados.gob.mx/index.php/camara/Sistema-de-colaboracion-y-consulta-para-la-propuesta-del-articulado-LGA/Titulos-de-la-Propuesta-del-Articulado-LGA" target = "_blank">Ley General de Aguas. (s.f.) Títulos de la Propuesta del Articulado LGA. Cámara de Diputados del Honorable Congreso de la Unión, México.</a></cite>
+                        <br><cite><a href="http://www.redalyc.org/pdf/3535/353531976001.pdf" target = "_blank">Martinez.Austria, P. y Patiño-Gómez, C. (2012). Efectos del cambio climático en l a disponibilidad de agua en México. Instituto Mexicano de Tecnología del Agua. México</a></cite>
+                        <br><cite><a href="https://www.eleconomista.com.mx/politica/Quieren-regular-derecho-constitucional-al-agua-20170504-0117.html" target = "_blank">Monroy, J. (2017). Quieren regular el derecho constitucional al agua. El Economista.</a></cite>
+                        <br><cite><a href="http://www.un.org/spanish/waterforlifedecade/scarcity.shtml" target = "_blank">Organización de las Naciones Unidad [ONU]. (2014). La escasez de agua.</a></cite>
+                        
+                        <br><cite><a href="http://www.redalyc.org/pdf/414/41431644004.pdf" target = "_blank">Ortiz, A. (2013). Relación entre la objetividad y la subjetividad en las ciencias humanas y sociales.</a></cite>
+                        <br><cite><a href="https://aristeguinoticias.com/2203/mexico/pese-a-desabasto-de-agua-solo-el-55-de-los-mexicanos-admite-cuidarla-encuesta/" target = "_blank">Reacción AN. (2018). Pese a desbasto de agua, solo el 55% de los mexicanos admite cuidarla. Aristegui Noticias.</a></cite>
+                        <br><cite><a href="http://www.earth.columbia.edu/sitefiles/file/about/director/pubs/EuroEconReview2001.pdf" target = "_blank">Sachs, J. y Warner, A. (2001). “The curse of natural resources”. European Economic Review. 45; p. 827 – 838.</a></cite>
+                        <br><cite><a href="">Thaler, R. H., & Sunstein, C. R. (2008). Nudge. Focus.</a></cite>
+                        <br><cite><a href="">Tso, K., Toy, P. (2009). Introduction to Health Data Curriculum, Los Angeles: UCLA Center for health policy research, Health Data Program.</a></cite>
+                        <br><cite><a href="http://www.huellahidrica.org/Reports/Vazquez%20del%20Mercado%20Arribas%20and%20Buenfil%20(2012).pdf" target = "_blank">Vázquez, R. & Buenfil, O. (2012). Huella Hídrica De América Latina: Retos Y Oportunidades. Aqua-LAC. 4 (1). pp. 41 - 48.</a></cite>
+                    </p>
+                  </div>
+                </div>
+            </div>
+  </div>
+</div>
+
+<div id="about-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="about-white-text">
+                <h1><i class="fas fa-tint"></i>¿Sabías qué?</h1>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="about-white-desc">
+                <blockquote>Si una persona pierde 10% del agua del cuerpo, su vida está en situación de riesgo, perder más de 20% conduce a la muerte. Una persona debe ingerir 3% de su peso en agua cada día.
+                  <footer>
+                    <cite><a href="https://www.nexos.com.mx/?p=32768" target="_blank">Verdades del agua</a></cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+      
+<div class="social">
+    <ul>
+      <li><a href="https://www.facebook.com/Piensagua-235896400416662/" target="_blank" class="icon-facebook"></a></li>
+      <li><a href="https://www.instagram.com/piensagua_/" target="_blank" class="icon-instagram"></a></li>
+      <li><a href="mailto:piensagua@gmail.com" class="icon-mail"></a></li>
+    </ul>
+</div>
+
+</body>
+</html>

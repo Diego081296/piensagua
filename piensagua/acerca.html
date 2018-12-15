@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="author" content="Equipo 11 - Agua">
+  <meta name="description" content="Concientizar acerca de la falta de cultura en el cuidado del agua, conoce tu huella hídrica y el impacto que se genera a tu alrededor">
+  <meta name="keywords" content="Agua, Cultura del agua, Huella hídrica, Concientización del agua, Piensa agua">
+
+	<title>Piensagua - Acerca de PIENSAGUA</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  
+  <link rel="stylesheet" type="text/css" href="CSS/Normalize.css">
+  <link rel="stylesheet" type="text/css" href="CSS/Estilo.css">
+  <link rel="stylesheet" type="text/css" href="CSS/fonts.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+  <link rel="icon" type="image/jpeg" href="/src/logoPuro.png" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126833193-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126833193-1');
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('a[href^="#"]').click(function() {
+            var destino = $(this.hash);
+            if (destino.length == 0) {
+            destino = $('a[name="' + this.hash.substr(1) + '"]');
+            }
+            if (destino.length == 0) {
+            destino = $('html');
+            }
+            $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+            return false;
+        });
+    });
+</script>
+</head>
+<body>
+
+<!-- 
+1 - Navbar with brand left, centered links and right aligned links.
+    The center links collapse into the mobile menu and rightside links
+    show underneath
+-->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="d-flex w-50 order-0">
+        <a class="navbar-brand mr-1" href="index.html"><img class="logoBarra" src="src/logoPuro.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
+    <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item active">
+                    <a class="nav-link" href="#">Acerca de PIENSAGUA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="informacion.html">Informacion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="miEstado.php">Mi Estado</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="directorio.php">Directorio estatal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="huellaHidrica.html">Huella Hídrica</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </div>
+    <span class="navbar-text small text-truncate mt-1 w-100 text-right order-1 order-md-last"></span>
+</nav>
+
+<header id="header">
+    <div class="intro2">
+            <div class="wrapper">
+                <div class="row">
+                    
+                    <div class="col-lg-12">
+                        <a href="index.html"><img src="src/logoPuro.png" class = "logoIndex"></a>
+                    </div>
+                </div>
+            </div>
+    </div> 
+</header>
+
+<div id="about-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="about-white-text">
+                    <h1><i class="fas fa-tint"></i>¿Quienes <br> somos?</h1>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="about-white-desc">
+                    PIENSAGUA es un equipo multidisciplinario que tiene el objetivo de colaborar con el cuidado del agua y reducir el consumo de este recurso en los hogares mexicanos. 
+                    Pretendemos lograr ello informando a nuestros usuarios para así lograr una cultura del agua que sensibilice a los mexicanos respecto a la problemática de la escasez de agua en México y los comprometa aún más con esta causa. Además, también ofrecemos otros contactos útiles en caso de que requieras alguna ayuda en el tema.                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="about-text">
+                    <h1><i class="fas fa-tint"></i>¿Por qué <br>la escasez?</h1>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="about-desc">
+                        México es uno de los países dónde cada vez la escasez de agua es un problema que va obteniendo mayor prevalencia.<br>
+                        <br><a href="index.html #about-white-alarmantes">Consulta algunos datos alarmantes</a><br>
+                        <br>En este sentido, la escasez de agua podría ser una gran problemática en el futuro. Sin embargo, podemos prevenirnos desde HOY.  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about-white2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="about-white-text">
+                    <h1><i class="fas fa-tint"></i>¿Por qué <br> los hogares mexicanos?</h1>
+                    <div class="about-desc-i">
+                        <p>La evidencia sugiere tres principales causas del problema de la escasez:</p>
+                    </div>
+                    <img src="src/causas.png">
+                </div>
+                
+            </div>
+            <div class="col-lg-8">
+                <div class="about-white-desc">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>1. El manejo inadecuado del agua tanto en el sector público como en el privado (Ej: diseño e implementación inadecuada de leyes, programas y políticas públicas).</p>
+                            <p>2. Falta de conciencia de la ciudadanía en general que se traduce en hábitos de consumo que favorecen en uso indebido y excesivo del agua</p>
+                            <p>3. El cambio climático que ha ocasionado periodos prolongados de sequía en algunas regiones del país.</p>
+                        </div>
+                        <div class="col-lg-12">
+                                Dado que la primera y la tercera causa están fuera de nuestro alcance (por ahora), la población objetivo que consideramos es más oportuno atender es el sector doméstico.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about-acerca">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="about-text">
+                    <h1><i class="fas fa-tint"></i>Entonces<br>¿Qué ofrecemos?</h1>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="about-acerca-desc">
+                    <p>Contamos con tres potenciales herramientas.</p>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a href="informacion.html" target="_blank"><b>INFORMACIÓN</b></a>
+                        </div>
+                        <div class="col-lg-12">
+                            <p>Aqui encontraras un breve panorama del problema de la escasez de agua en México. Otros elementos que encontrarás será una sección de dudas frecuentes sobre el tema y otra de pequeños consejos que puedes emprender en tu vida diaria para que ahorres este recurso.</p>
+                        </div>
+                        <div class="col-lg-12">                    
+                            <a href="miEstado.php" target="_blank"><b>MAPA COMPARATIVO </b></a>
+                            <p>En este apartado podrás calcular el monto (en pesos mexicanos) que representa tu gasto en agua al interior la vivienda. También, podrás comparar ese cálculo con el monto promedio de gasto en agua por persona de tú estado. Así sabrás en cuánto deberías de estar tu consumo y en cuánto deberías reducirlo.
+                        </div>
+                        <div class="col-lg-12">
+                            <a href="directorio.php" target="_blank"><b>DIRECTORIO ESTATAL</b></a>
+                        </div>
+                        <div class="col-lg-12">
+                            <p>Si enfrentas algún problema severo en tu comunidad o tienes alguna iniciativa en materia de agua, ¡Comunícalo! En esta sección podrás buscar tu Estado y redirigirte con alguna autoridad que pueda ayudarte.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a name ="descubremas"></a>
+<div class = "destacado">
+    <h1 class="titulosSecciones">Aqui te platicamos más...</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 publicidad">
+              <video src="/src/destacado.mp4" class="noticia" controls preload></video>            
+            </div>
+            <div class="col-lg-12">
+                <p><a href="https://www.facebook.com/92.7FMTuestacion/videos/440830929784811/" target="_blank">Ver programa completo</a></p>            
+            </div>
+        </div>
+    </div>
+</div>  
+
+
+<div class="social">
+    <ul>
+      <li><a href="https://www.facebook.com/Piensagua-235896400416662/" target="_blank" class="icon-facebook"></a></li>
+      <li><a href="https://www.instagram.com/piensagua_/" target="_blank" class="icon-instagram"></a></li>
+      <li><a href="mailto:piensagua@gmail.com" class="icon-mail"></a></li>
+    </ul>
+</div>
+
+</body>
+</html>
